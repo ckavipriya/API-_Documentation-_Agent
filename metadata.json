@@ -1,0 +1,6 @@
+{
+  "name": "AI API Documentation Agent",
+  "description": "An AI-powered documentation agent using LangChain, ChromaDB, and Gemini to parse backend code, generate OpenAPI specifications, and answer questions via RAG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

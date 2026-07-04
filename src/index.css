@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-secondary-fixed-dim: #adc7ff;
+  --color-inverse-on-surface: #eaf1ff;
+  --color-surface-variant: #d3e4fe;
+  --color-outline-variant: #bbcbb9;
+  --color-surface-container-low: #eff4ff;
+  --color-primary-container: #00d166;
+  --color-on-secondary: #ffffff;
+  --color-outline: #6c7b6c;
+  --color-surface-container-high: #dce9ff;
+  --color-secondary-container: #0070ea;
+  --color-on-primary-container: #005324;
+  --color-on-background: #0b1c30;
+  --color-background: #f8f9ff;
+  --color-on-error-container: #93000a;
+  --color-inverse-primary: #30e375;
+  --color-surface-tint: #006d32;
+  --color-on-tertiary-fixed: #131b2e;
+  --color-on-secondary-container: #fefcff;
+  --color-secondary: #0059bb;
+  --color-on-primary-fixed-variant: #005224;
+  --color-surface-dim: #cbdbf5;
+  --color-tertiary-fixed-dim: #bec6e0;
+  --color-primary-fixed: #64ff92;
+  --color-on-primary-fixed: #00210b;
+  --color-primary: #006d32;
+  --color-on-surface: #0b1c30;
+  --color-error-container: #ffdad6;
+  --color-primary-fixed-dim: #30e375;
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary-fixed: #d8e2ff;
+  --color-surface-container-highest: #d3e4fe;
+  --color-on-tertiary: #ffffff;
+  --color-error: #ba1a1a;
+  --color-surface: #f8f9ff;
+  --color-tertiary-container: #aeb5cf;
+  --color-on-primary: #ffffff;
+  --color-on-surface-variant: #3c4a3d;
+  --color-on-secondary-fixed-variant: #004493;
+  --color-on-tertiary-container: #3f475c;
+  --color-surface-container: #e5eeff;
+  --color-surface-bright: #f8f9ff;
+  --color-tertiary: #565e74;
+  --color-on-error: #ffffff;
+  --color-tertiary-fixed: #dae2fd;
+  --color-inverse-surface: #213145;
+  --color-on-secondary-fixed: #001a41;
+  --color-on-tertiary-fixed-variant: #3f465c;
+
+  /* Fonts */
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+/* Custom Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Material Symbols Styling */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
