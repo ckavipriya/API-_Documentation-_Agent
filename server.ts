@@ -10,7 +10,7 @@ import { DatabaseSchema, Project, User, UserRole, Endpoint, CodeChunk, ChatMessa
 // Load environment variables
 dotenv.config();
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const DB_FILE = path.join(process.cwd(), "data", "db.json");
 
 // Ensure the data directory exists
